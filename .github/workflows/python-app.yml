@@ -12,8 +12,8 @@ on:
     - cron:  '* * * * *'
 
 permissions:
-  contents: read
-
+  contents: read-all|write-all
+  
 jobs:
   build:
 
