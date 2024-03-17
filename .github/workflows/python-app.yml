@@ -16,7 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     permissions: write-all
     steps:
-    - name: checkout_repo
     - uses: actions/checkout@v3
       with:
         token: ${{ secrets.GITHUB_TOKEN }}
