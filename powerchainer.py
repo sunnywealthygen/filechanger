@@ -8,8 +8,12 @@ print(k)
 k=str(int(k)+1)
 file2 = open('thepower.txt', 'w')
 file2.write(k)
-print('version 2')
+print('version 3')
+print(k)
 
 with open('thepower.txt', 'w') as file_obj:
     file_obj.write("I love programming!\n")
     file_obj.write("I love Python!\n")
+
+with open('thepower.txt', 'r') as file_obj:
+    print(file_obj.readlines())
