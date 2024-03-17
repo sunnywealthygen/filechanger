@@ -9,9 +9,10 @@ print(k)
 k=str(int(k)+1)
 file2 = open('thepower.txt', 'w')
 file2.write(k)
-print('version 4')
+print('version 5')
 print(k)
 file2.close()
+file2.write(k)
 
 with open('thepower.txt', 'w') as file_obj:
     file_obj.write("I love programming!\n")
