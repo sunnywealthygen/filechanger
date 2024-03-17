@@ -6,5 +6,5 @@ for line in Lines:
   k=line
 
 file1 = open('thepower.txt', 'w')
-file1.writelines(str(int(k)+1))
+file1.write(str(int(k)+1))
 file1.close()
